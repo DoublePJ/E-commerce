@@ -1,0 +1,38 @@
+.box-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box-menu .logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.box-menu .menu .logo a h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.box-menu .menu {
+    margin: auto;
+
+}
+
+.box-menu .menu ul {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+}
+
+.box-menu .menu ul li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+.box-menu .menu ul li a {
+    text-decoration: none;
+    color: black;
+}

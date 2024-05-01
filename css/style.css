@@ -1,0 +1,38 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit';
+
+}
+
+/* ====swiper start==== */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide .img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    height: 10px;
+    width: auto;
+}
+
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*====swiper end=====*/
